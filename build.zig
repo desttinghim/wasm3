@@ -54,7 +54,7 @@ pub fn build(b: *std.build.Builder) !void {
 
     // Create wasm3 cli
     const wasm3 = b.addExecutable(.{
-        .name = "wasm3",
+        .name = "wasm3-cli",
         .target = target,
         .optimize = optimize,
     });
